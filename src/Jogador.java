@@ -22,7 +22,7 @@ public class Jogador extends Thread {
 		this.jogador = jogador;
 		this.rodadaFinal = rodadaFinal;
 		
-		System.out.println("Jogador " + (this.id + 1) + " entrou na brincadeira!");
+		System.out.println("Jogador " + this.id + " entrou na brincadeira!");
 	}
 	
 	/*MÉTODO PLAYROUND 
